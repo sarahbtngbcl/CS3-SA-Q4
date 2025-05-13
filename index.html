@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tubo Records</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=MonteCarlo&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+  background: linear-gradient(180deg, #d3c4ff, #8b6ec8, #4b3c86, #2c2453, #1a1a2e, #000000);
+  background-size: 300% 150%;
+}
+.a-txt {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white
+}
+.a-txt:hover {
+  color:#8b6ec8;
+  text-decoration: none;
+}
+
+.nav-style {
+  background-color: #2c2453;
+}
+.h3-txt {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-color {
+  background: #9a77d3;
+  border-color: #fcddec;
+  color: white;
+}
+
+.btn-color:hover {
+  background: #998ff4;
+  color: white;
+}
+.h5-txt {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.h4-txt {
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+  </style>
+
+</head>
+<body>
+  <nav class="navbar nav-style navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand a-txt" href="index.html">Tubo Records</a>
+      <a class="btn btn-outline-light ms-auto" href="aboutcompany.html">About</a>
+    </div>
+  </nav>
+<div class="container py-4">
+  <div class="row">
+    <div class="col-lg-8">
+<h3 class='mt-4 h3-txt'>Vinyls</h3><div class='row'>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://static.wixstatic.com/media/747c79_e5f307ba484449e1abfe3b07760892dd~mv2.png/v1/fill/w_420,h_420,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/747c79_e5f307ba484449e1abfe3b07760892dd~mv2.png" class="card-img-top" alt="sf">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Silver Fairy - 12" vinyl (Black)</h5>
+              <p class="card-text">₱1,800</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Silver Fairy', 1800)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://www.backspacerrecords.com/cdn/shop/files/FF0A8395-D6F2-4C07-B038-4894F68D81C3.png?v=1734111402&width=600" class="card-img-top" alt="sp">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Zild – Superpower LP (Limited Edition)</h5>
+              <p class="card-text">₱3,200</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Superpower', 3200)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://store.laufeymusic.com/cdn/shop/files/ToMBlackVinyl.png?v=1714502906&width=713" class="card-img-top" alt="tm">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Typical of Me - Black Vinyl</h5>
+              <p class="card-text">₱1,674</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Typical of Me', 1674)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://i5.walmartimages.com/seo/Aaliyah-Ultimate-Aaliyah-Exclusive-Limited-Gold-Nugget-Color-Vinyl-3x-LP_5e15c24e-8726-4b37-a39d-48373cd33640.a8e25767fc7ba7c65e82b8d6d6355e11.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" class="card-img-top" alt="aaliyah">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Aaliyah - Ultimate Aaliyah Exclusive Limited Gold Nugget Color Vinyl 3x LP</h5>
+              <p class="card-text">₱1,392</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Aaliyah', 1394)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/41lDtqKwGTL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" alt="grace">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Jeff Buckley – Grace LP (Limited Edition)</h5>
+              <p class="card-text">₱1,672</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Grace', 1672)">Add to Cart</button>
+            </div>
+          </div>
+
+          
+        </div>
+        </div><h3 class='mt-4 h3-txt'>Merch</h3><div class='row'>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://d28onjpxqm95em.cloudfront.net/eyJidWNrZXQiOiJtZXJjaGJhci1pbWFnZXMiLCJrZXkiOiJwcm9kdWN0LzE5NS85MjA1LzczODM1MzgxMDY1MDMvRlhiMzFTbTVjYWI2MDI0MDQ0OTcyNzcwYmQ4NmRkNTViMGI1MTdkOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc2OCwiZml0IjoiY292ZXIifX19?format=webp" class="card-img-top" alt="pf shirt">
+            <div class="card-body">
+              <h5 class="card-title h5-txt"> Dark Side Of The Moon Universe Image Shirt</h5>
+              <p class="card-text">₱1,384</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart(' Dark Side Of The Moon Universe Image Shirt', 1384)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://d28onjpxqm95em.cloudfront.net/eyJidWNrZXQiOiJtZXJjaGJhci1pbWFnZXMiLCJrZXkiOiJwcm9kdWN0LzE5NS85MjA1Lzc5MDI2Mjk2OTE1MjcvUUJMVTNmZjY2NWNkYjhiZWEzNTMxYjczMDg4MTY2NWFlOWFjZmE3My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc2OCwiZml0IjoiY292ZXIifX19?format=webp" class="card-img-top" alt="wh">
+            <div class="card-body">
+              <h5 class="card-title h5-txt"> I'm Every Woman Red Turquoise Image (Tubo Exclusive) Shirt</h5>
+              <p class="card-text">₱1,662</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Whitney Houston Baseball Tee', 1662)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://d28onjpxqm95em.cloudfront.net/eyJidWNrZXQiOiJtZXJjaGJhci1pbWFnZXMiLCJrZXkiOiJwcm9kdWN0LzE5NS85MjA1LzY4Njk1NDA1MDM2ODcvTmN6VXdGRHo3MGZiZTRhZDliNTY2N2Q4ODJlZDdlYzkxOWZlMTY2MS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc2OCwiZml0IjoiY292ZXIifX19?format=webp" class="card-img-top" alt=" I Heart Grunge Worn By Eddie Vedder Shirt">
+            <div class="card-body">
+              <h5 class="card-title h5-txt"> I Heart Grunge Worn By Eddie Vedder Shirt</h5>
+              <p class="card-text">₱1,384</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Belt', 1384)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://d28onjpxqm95em.cloudfront.net/eyJidWNrZXQiOiJtZXJjaGJhci1pbWFnZXMiLCJrZXkiOiJwcm9kdWN0LzE5NS85MjA1Lzc3ODA5OTMzNjgxOTkvWVJWZjluYlU1ZTM3MDYzMTJiOTBjYzJiYmZjM2JhZjMyNzA4YzNjNC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjc2OCwiZml0IjoiY292ZXIifX19?format=webp" class="card-img-top" alt="david bowie">
+            <div class="card-body">
+              <h5 class="card-title h5-txt"> Silly Face Finger Glasses Color Block Distressed (Tubo Exclusive) Light Shirt</h5>
+              <p class="card-text">₱4,500</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart(' Silly Face Finger Glasses Color Block Distressed Light Shirt', 4500)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrD3tYHYhqHQqu1sdaWc4HsqaBIvLe-nrtA&s" class="card-img-top" alt="Scarf">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Scarf Worn By Dionela</h5>
+              <p class="card-text">₱100,000</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Scarf', 100000)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        </div><h3 class='mt-4 h3-txt'>Turntables</h3><div class='row'>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/71mdGGzo8xL.__AC_SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" alt="pt">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Pink Turntable</h5>
+              <p class="card-text">₱3,360</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Pink Turntable', 3360)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/61AkWuMt9KL._AC_SX425_.jpg" class="card-img-top" alt="vt">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Vintage Turntable</h5>
+              <p class="card-text">₱5,243</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Vintage Turntable', 5243)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/61kknC1mTRL.__AC_SY300_SX300_QL70_FMwebp_.jpg" class="card-img-top" alt="black">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Black Turntable</h5>
+              <p class="card-text">₱3,120</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Black Turntable', 3120)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/613y1TxMqzL._AC_SX425_.jpg" class="card-img-top" alt="clear">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Clear Turntable</h5>
+              <p class="card-text">₱4,080</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Loafers', 4080)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://m.media-amazon.com/images/I/71Wb9+UxAgL._AC_SX425_.jpg" class="card-img-top" alt="Retro">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Retro Turntable</h5>
+              <p class="card-text">₱9,984</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Retro Turntable', 9984)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        </div><h3 class='mt-4 h3-txt'>Vinyl Storage</h3><div class='row'>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://alpakagear.com/cdn/shop/files/ELEMENTSBACKPACKPROVX42BLACK.jpg?v=1740468404&width=1020" class="card-img-top" alt="Backpack">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Backpack</h5>
+              <p class="card-text">₱2,520</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Backpack', 2520)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://dynamic.zacdn.com/dDsgdyIRqD0D4nGyu2_X4BAFtnI=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/red-s-revenge-8506-4473292-2.jpg" class="card-img-top" alt="Handbag">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Handbag</h5>
+              <p class="card-text">₱3,640</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Handbag', 3640)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://jacksonwayne.com/cdn/shop/products/esq.briefcasefrontanglest.jpg?v=1698502898&width=1946" class="card-img-top" alt="Briefcase">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Briefcase</h5>
+              <p class="card-text">₱2,800</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Briefcase', 2800)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://cdn.thewirecutter.com/wp-content/media/2024/07/totebags-2048px-duck-zip.jpg?auto=webp&quality=75&width=1024" class="card-img-top" alt="Tote Bag">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Tote Bag</h5>
+              <p class="card-text">₱1,680</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Tote Bag', 1680)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="https://underarmour.scene7.com/is/image/Underarmour/1376466-001_SLB_SL?rp=standard-0pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=F0F0F0&wid=566&hei=708&size=566,708" class="card-img-top" alt="Duffel Bag">
+            <div class="card-body">
+              <h5 class="card-title h5-txt">Duffel Bag</h5>
+              <p class="card-text">₱3,080</p>
+              <button class="btn btn-sm btn-color" onclick="addToCart('Duffel Bag', 3080)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card mb-4 shadow">
+        <div class="card-body">
+          <h4 class="card-title h4-txt">Cart</h4>
+         <ul id="cart-list" class="list-group mb-3"></ul>
+          <h5>Total: <span id="total">0</span></h5>
+        </div>
+      </div>
+      <div class="card shadow">
+        <div class="card-body">
+          <h4 class="card-title h4-txt">Checkout</h4>
+          <form class="mt-4" action="http://47.129.9.35/cs3/checkout.php" method="POST" onsubmit="updateCart(); prepareCheckout()">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" name="cust_name" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Address</label>
+              <input type="text" class="form-control" name="cust_addr" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" name="cust_email" required />
+            </div>
+            <input type="hidden" name="cust_order" id="cust_order" />
+            <button type="submit" class="btn btn-success w-100">Submit Order</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+let cart = [];
+function addToCart(name, price) {
+  cart.push({ name, price });
+  updateCart();
+}
+function removeFromCart(index) {
+  cart.splice(index, 1);
+  updateCart();
+}
+
+window.onload = () => {
+  const saved = localStorage.getItem("shopada_cart");
+  if (saved) {
+    cart = JSON.parse(saved);
+    updateCart();
+  }
+};
+
+function updateCart() {
+  localStorage.setItem("shopada_cart", JSON.stringify(cart));
+  const cartList = document.getElementById('cart-list');
+  cartList.innerHTML = '';
+  let total = 0;
+  cart.forEach((item, i) => {
+    total += Number(item.price);
+    const li = document.createElement('li');
+    li.className = 'list-group-item d-flex justify-content-between align-items-center';
+    li.innerHTML = `${item.name} - ₱${item.price} <button class="btn btn-sm btn-danger" onclick="removeFromCart(${i})">X</button>`;
+    cartList.appendChild(li);
+  });
+  document.getElementById('total').textContent = `₱${total.toFixed(2)}`;
+}
+
+function prepareCheckout() {
+  document.getElementById('cust_order').value = JSON.stringify(
+    cart.map(item => ({ prod_name: item.name, prod_price: item.price }))
+  );
+}
+</script>
+</body>
+</html>
